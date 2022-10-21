@@ -1,0 +1,275 @@
+.footer {
+    /* height: 200px; */
+    position: relative;
+    color: white;
+    z-index: 111;
+    margin-top: -250px;
+
+}
+
+.footerImg {
+    width: 100%;
+    height: 800px;
+
+}
+
+.footerImg-m{
+    display: none;
+}
+
+.footerTop {
+    position: absolute;
+    /* background-color: #C25FFF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 25%;
+    width: 100%;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content h2 {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+.footer-content p {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+
+
+.FBton {
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    margin-bottom: 64px;
+    
+    
+
+}
+
+.FBton .Fbtn1 {
+    background: linear-gradient(134.5deg, #C25FFF 2.88%, #3D29D0 98.85%);
+    box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 4px 4px 4px 32px;
+}
+
+.FBton .Fbtn1 button {
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: white;
+
+}
+
+.FBton .Fbtn1 .arrowicons {
+    border: none;
+    background: transparent;
+    width: 34px;
+    height: 34px;
+
+}
+
+hr {
+    width: 75%;
+    height: 2px;
+
+    background: #D9D9D9;
+}
+
+.footerBottom{
+    position: absolute;
+    top: 440px;
+    left: 12.5%;
+    /* background-color: #3D29D0; */
+    width: 75%;
+    margin: auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.fBtop{
+    display: flex;
+    /* background-color: #C25FFF; */
+   
+    justify-content: space-between;
+    
+}
+.fBtop img{
+    width: 184.71px;
+    height: 40px;
+}
+.links{
+    display: flex;
+    /* gap: 230px; */
+    justify-content: space-between;
+    margin-top: -27px;
+
+}
+.links1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.links1 h2{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.links1 a{
+    color: white;
+    font-family: 'NeuzeitOfficeW04-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+    
+}
+.icons{
+    flex-direction: row;
+}
+
+
+
+@media only screen and (max-width: 950px){
+  
+ 
+
+  }
+
+  @media only screen and (max-width: 750px){
+    .footerBottom{
+        width: 95%;
+        left: 2%;
+        
+    }
+    .footerTop{
+        top:17%
+    }
+    .footerImg{
+        height: 1050px;
+        display: none;
+    }
+
+    .footerImg-m{
+        display: block;
+    }
+
+
+
+    .BtnBox{
+        margin-left: 0;
+        align-self: center;
+        text-align: center;
+        margin-top: 0px !important;
+    }
+
+
+    .footer-content{
+        width: 85%;
+        margin: auto;
+    }
+
+    .footer-content{
+        text-align: center;
+    }
+
+    hr{
+        width: 95%;
+    }
+   
+   
+    
+}
+@media only screen and (max-width: 750px){
+    .footerBottom{
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 550px){
+  
+
+    .BtnBox{
+        margin-bottom: 0;
+    }
+
+    .BtnBox .FBton{
+        margin-left: 0px;
+    }
+    hr{
+        width: 95%;
+    }
+
+  
+}
+
+@media only screen and (max-width: 628px){
+    .footerBottom{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+  .links1 h2{
+   font-size: 14px;
+  }
+  .links1 a{
+   font-size: 12px;
+  }
+  .footerBottom{
+    margin-top: 70px;
+  }
+  .Fbtn1{
+    width: 150px;
+  }
+  .fBtop img{
+    width: 180px;
+  }
+}
+@media only screen and (min-width: 1500px){
+    .footer-content h2 {
+       
+        font-size: 35px;
+    }
+    
+    .footer-content p {
+        font-size: 20px;
+    }
+    .fBtop img{
+        width: 189.71px;
+        height: 45px;
+    }
+    .links1 h2{
+        font-size: 22px;
+    }
+    .links1 a{
+        font-size: 17px;
+    }
+}
